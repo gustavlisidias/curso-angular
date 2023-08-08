@@ -6,6 +6,7 @@ import { CartService } from './services/cart.service';
   selector: 'app-root',
   templateUrl: './app.component.html',
 })
+
 export class AppComponent implements OnInit {
   cart: Cart = { items: [] };
 
